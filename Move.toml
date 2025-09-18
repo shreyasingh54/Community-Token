@@ -1,0 +1,16 @@
+[package]
+name = "BUILDON"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0xac4bbccee3707cc4d645ba339e763c8ef3a25c9dc2eab9ea788bd3a3654baec6"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
